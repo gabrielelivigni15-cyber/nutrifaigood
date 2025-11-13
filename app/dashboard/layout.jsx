@@ -80,7 +80,7 @@ export default function DashboardLayout({ children }) {
 
           {!isAdmin && (
             <>
-              <a href="/dashboard/user/allenamenti" className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg_WHITE/5">
+              <a href="/dashboard/user/allenamenti" className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg_white/5">
                 <Dumbbell className="w-4 h-4" />
                 <span>I miei allenamenti</span>
               </a>
